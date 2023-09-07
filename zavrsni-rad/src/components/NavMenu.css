@@ -1,0 +1,18 @@
+nav {
+	background-color: #011627;
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+}
+
+.linkContainer {
+	display: flex;
+}
+
+.link {
+	text-decoration: none;
+	color: #fdfffc;
+	margin: 5px 10px;
+	cursor: pointer;
+	border-bottom: 2px #b10f2e solid;
+}

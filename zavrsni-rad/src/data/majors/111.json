@@ -1,0 +1,59 @@
+{
+	"1": [
+		{ "id": 1, "name": "Matematika 1", "isElective": false },
+		{ "id": 2, "name": "Osnove elektrotehnike 1", "isElective": false },
+		{ "id": 3, "name": "Računala i programiranje", "isElective": false },
+		{ "id": 4, "name": "Inženjerska grafika i prezentacija", "isElective": false },
+		{ "id": 5, "name": "Komunikacijske vještine", "isElective": false },
+		{ "id": 6, "name": "Engleski jezik 1", "isElective": false }
+	],
+	"2": [
+		{ "id": 7, "name": "Matematika 2", "isElective": false },
+		{ "id": 8, "name": "Fizika 1", "isElective": false },
+		{ "id": 9, "name": "Osnove elektrotehnike 2", "isElective": false },
+		{ "id": 10, "name": "Digitalna elektronika", "isElective": false },
+		{ "id": 11, "name": "Engleski jezik 2", "isElective": false }
+	],
+	"3": [
+		{ "id": 12, "name": "Matematika 3", "isElective": false },
+		{ "id": 13, "name": "Fizika 2", "isElective": false },
+		{ "id": 14, "name": "Elektronički elementi i sklopovi", "isElective": false },
+		{ "id": 15, "name": "Električna mjerenja", "isElective": false },
+		{ "id": 16, "name": "Ekonomika i organizacija proizvodnje", "isElective": false },
+		{ "id": 17, "name": "Engleski jezik 3", "isElective": false }
+	],
+	"4": [
+		{ "id": 18, "name": "Vjerojatnost i statistika", "isElective": false },
+		{ "id": 19, "name": "Programiranje", "isElective": false },
+		{ "id": 20, "name": "Teorija sustava", "isElective": false },
+		{ "id": 21, "name": "Informacije i komunikacije", "isElective": false },
+		{ "id": 22, "name": "Osnove elektroenergetike", "isElective": false },
+		{ "id": 23, "name": "Elektrotehnički materijali i tehnologije", "isElective": false }
+	],
+	"5": [
+		{ "id": 24, "name": "Automatska regulacija 1", "isElective": false },
+		{ "id": 25, "name": "Elektronički sklopovi", "isElective": false },
+		{ "id": 26, "name": "Analiza mreža", "isElective": false },
+		{ "id": 27, "name": "Simulacijsko modeliranje", "isElective": false },
+		{ "id": 28, "name": "Objektno orijentirano programiranje", "isElective": false },
+		{ "id": 29, "name": "Programiranje za Internet", "isElective": true },
+		{ "id": 30, "name": "Numeričke metode u elektronici", "isElective": true },
+		{ "id": 31, "name": "Računarske metode u biomehanici", "isElective": true },
+		{ "id": 32, "name": "Arhitektura računala", "isElective": true },
+		{ "id": 33, "name": "Tehnička mehanika", "isElective": true },
+		{ "id": 34, "name": "Sigurnost računala i sustava", "isElective": true },
+		{ "id": 35, "name": "Komunikacijski sustavi i protokoli", "isElective": true }
+	],
+	"6": [
+		{ "id": 36, "name": "Impulsni i digitalni sklopovi", "isElective": false },
+		{ "id": 37, "name": "Automatska regulacija 2", "isElective": false },
+		{ "id": 38, "name": "Digitalna instrumentacija 1", "isElective": false },
+		{ "id": 39, "name": "Završni rad", "isElective": false },
+		{ "id": 41, "name": "Mjerni pretvornici i izvršne sprave", "isElective": true },
+		{ "id": 42, "name": "Elementi automatizacije industrijskih procesa", "isElective": true },
+		{ "id": 43, "name": "Digitalna obradba signala", "isElective": true },
+		{ "id": 44, "name": "Bežične senzorske mreže", "isElective": true },
+		{ "id": 45, "name": "Baze podataka", "isElective": true },
+		{ "id": 46, "name": "Stručna praksa", "isElective": true }
+	]
+}

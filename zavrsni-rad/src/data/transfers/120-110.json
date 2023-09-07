@@ -1,0 +1,17 @@
+{
+	"transfers": [
+		{ "requiredSubjects": [104], "recognizedSubject": 1 },
+		{ "requiredSubjects": [106], "recognizedSubject": 2 },
+		{ "requiredSubjects": [107], "recognizedSubject": 3 },
+		{ "requiredSubjects": [108], "recognizedSubject": 6 },
+		{ "requiredSubjects": [119], "recognizedSubject": 5 },
+		{ "requiredSubjects": [105], "recognizedSubject": 8 },
+		{ "requiredSubjects": [109], "recognizedSubject": 7 },
+		{ "requiredSubjects": [115], "recognizedSubject": 10 },
+		{ "requiredSubjects": [112], "recognizedSubject": 19 },
+		{ "requiredSubjects": [113], "recognizedSubject": 11 },
+		{ "requiredSubjects": [110], "recognizedSubject": 13 },
+		{ "requiredSubjects": [124], "recognizedSubject": 20 },
+		{ "requiredSubjects": [120], "recognizedSubject": 18 }
+	]
+}

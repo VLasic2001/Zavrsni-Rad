@@ -1,0 +1,33 @@
+{
+	"1": [
+		{ "id": 1, "name": "Matematika 1", "isElective": false },
+		{ "id": 2, "name": "Osnove elektrotehnike 1", "isElective": false },
+		{ "id": 3, "name": "Računala i programiranje", "isElective": false },
+		{ "id": 4, "name": "Inženjerska grafika i prezentacija", "isElective": false },
+		{ "id": 5, "name": "Komunikacijske vještine", "isElective": false },
+		{ "id": 6, "name": "Engleski jezik 1", "isElective": false }
+	],
+	"2": [
+		{ "id": 7, "name": "Matematika 2", "isElective": false },
+		{ "id": 8, "name": "Fizika 1", "isElective": false },
+		{ "id": 9, "name": "Osnove elektrotehnike 2", "isElective": false },
+		{ "id": 10, "name": "Digitalna elektronika", "isElective": false },
+		{ "id": 11, "name": "Engleski jezik 2", "isElective": false }
+	],
+	"3": [
+		{ "id": 12, "name": "Matematika 3", "isElective": false },
+		{ "id": 13, "name": "Fizika 2", "isElective": false },
+		{ "id": 14, "name": "Elektronički elementi i sklopovi", "isElective": false },
+		{ "id": 15, "name": "Električna mjerenja", "isElective": false },
+		{ "id": 16, "name": "Ekonomika i organizacija proizvodnje", "isElective": false },
+		{ "id": 17, "name": "Engleski jezik 3", "isElective": false }
+	],
+	"4": [
+		{ "id": 18, "name": "Vjerojatnost i statistika", "isElective": false },
+		{ "id": 19, "name": "Programiranje", "isElective": false },
+		{ "id": 20, "name": "Teorija sustava", "isElective": false },
+		{ "id": 21, "name": "Informacije i komunikacije", "isElective": false },
+		{ "id": 22, "name": "Osnove elektroenergetike", "isElective": false },
+		{ "id": 23, "name": "Elektrotehnički materijali i tehnologije", "isElective": false }
+	]
+}

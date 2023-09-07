@@ -1,0 +1,53 @@
+{
+	"1": [
+		{ "id": 104, "name": "Matematika 1", "isElective": false },
+		{ "id": 105, "name": "Fizika 1", "isElective": false },
+		{ "id": 106, "name": "Elektrotehnika", "isElective": false },
+		{ "id": 107, "name": "Uvod u računala i programiranje", "isElective": false },
+		{ "id": 108, "name": "Engleski jezik 1", "isElective": false }
+	],
+	"2": [
+		{ "id": 109, "name": "Matematika 2", "isElective": false },
+		{ "id": 110, "name": "Fizika 2", "isElective": false },
+		{ "id": 111, "name": "Elektronika", "isElective": false },
+		{ "id": 112, "name": "Programiranje", "isElective": false },
+		{ "id": 113, "name": "Engleski jezik 2", "isElective": false }
+	],
+	"3": [
+		{ "id": 114, "name": "Diskretna matematika", "isElective": false },
+		{ "id": 115, "name": "Diskretni sustavi i strukture", "isElective": false },
+		{ "id": 116, "name": "Objektno orijentirano programiranje", "isElective": false },
+		{ "id": 117, "name": "Strukture podataka", "isElective": false },
+		{ "id": 118, "name": "Praktikum", "isElective": false },
+		{ "id": 119, "name": "Komunikacijske vještine", "isElective": false }
+	],
+	"4": [
+		{ "id": 120, "name": "Vjerojatnost i statistika", "isElective": false },
+		{ "id": 121, "name": "Arhitektura digitalnih računala", "isElective": false },
+		{ "id": 122, "name": "Algoritmi", "isElective": false },
+		{ "id": 123, "name": "Baze podataka", "isElective": false },
+		{ "id": 124, "name": "Signali i sustavi", "isElective": false }
+	],
+	"5": [
+		{ "id": 125, "name": "Operacijski sustavi", "isElective": false },
+		{ "id": 126, "name": "Računalne mreže", "isElective": false },
+		{ "id": 127, "name": "Programsko inženjerstvo", "isElective": false },
+		{ "id": 128, "name": "Programiranje za Internet", "isElective": false },
+		{ "id": 129, "name": "Programiranje za Unix", "isElective": true },
+		{ "id": 130, "name": "Sigurnost računala i podataka", "isElective": true },
+		{ "id": 131, "name": "Programiranje za Android", "isElective": true },
+		{ "id": 132, "name": "Programiranje u Pythonu", "isElective": true }
+	],
+	"6": [
+		{ "id": 133, "name": "Projektiranje informacijskih sustava", "isElective": false },
+		{ "id": 134, "name": "Uvod u distribuirane informacijske sustave", "isElective": false },
+		{ "id": 135, "name": "Poslovna informatika", "isElective": false },
+		{ "id": 136, "name": "Završni rad", "isElective": false },
+		{ "id": 137, "name": "Programiranje za Windows", "isElective": true },
+		{ "id": 138, "name": "Komunikacijski protokoli i arhitekture", "isElective": true },
+		{ "id": 139, "name": "Osnove ugradbenih računalnih sustava", "isElective": true },
+		{ "id": 140, "name": "Obrada signala", "isElective": true },
+		{ "id": 141, "name": "Inženjerska ekonomika", "isElective": true },
+		{ "id": 142, "name": "Stručna praksa", "isElective": true }
+	]
+}

@@ -1,0 +1,93 @@
+.homeContainer {
+	display: flex;
+	justify-content: space-between;
+	min-height: 100%;
+}
+
+.majorFromContainer,
+.majorToContainer {
+	display: inline-block;
+	min-height: 100%;
+	width: 48%;
+	background-color: #416788;
+	padding: 15px;
+}
+
+.select {
+	margin: 10px 0px;
+	width: 90%;
+}
+
+.arrowIcon {
+	font-size: 70px;
+	align-self: center;
+}
+
+.formTitle {
+	display: inline-block;
+	margin-bottom: 5px;
+	font-size: 26px;
+	color: #fdfffc;
+}
+
+.info {
+	display: inline-block;
+	margin: 10px 0;
+	font-size: 26px;
+	color: #fdfffc;
+}
+
+.semesterContainer {
+	background-color: #2e294e;
+	color: #fdfffc;
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 22px;
+	margin: 10px 0px;
+	width: 100%;
+}
+
+.electiveContainer,
+.subjectContainer {
+	margin: 5px;
+	border-radius: 2px;
+	padding: 7px;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.electiveContainer {
+	background-color: #f46036;
+}
+
+.subjectContainer {
+	background-color: #1b998b;
+}
+
+.majorContainer {
+	padding-right: 15px;
+}
+
+.tipContainer {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 18px;
+	color: #fdfffc;
+}
+
+.squareIcon {
+	color: #f46036;
+}
+
+.selectedMajorTitle {
+	display: inline-block;
+	color: #fdfffc;
+	font-size: 22px;
+}
+
+.gradeInput {
+	border-radius: 3px;
+	border: none;
+	text-align: center;
+}

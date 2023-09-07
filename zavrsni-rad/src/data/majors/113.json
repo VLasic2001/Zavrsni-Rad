@@ -1,0 +1,56 @@
+{
+	"1": [
+		{ "id": 1, "name": "Matematika 1", "isElective": false },
+		{ "id": 2, "name": "Osnove elektrotehnike 1", "isElective": false },
+		{ "id": 3, "name": "Računala i programiranje", "isElective": false },
+		{ "id": 4, "name": "Inženjerska grafika i prezentacija", "isElective": false },
+		{ "id": 5, "name": "Komunikacijske vještine", "isElective": false },
+		{ "id": 6, "name": "Engleski jezik 1", "isElective": false }
+	],
+	"2": [
+		{ "id": 7, "name": "Matematika 2", "isElective": false },
+		{ "id": 8, "name": "Fizika 1", "isElective": false },
+		{ "id": 9, "name": "Osnove elektrotehnike 2", "isElective": false },
+		{ "id": 10, "name": "Digitalna elektronika", "isElective": false },
+		{ "id": 11, "name": "Engleski jezik 2", "isElective": false }
+	],
+	"3": [
+		{ "id": 12, "name": "Matematika 3", "isElective": false },
+		{ "id": 13, "name": "Fizika 2", "isElective": false },
+		{ "id": 14, "name": "Elektronički elementi i sklopovi", "isElective": false },
+		{ "id": 15, "name": "Električna mjerenja", "isElective": false },
+		{ "id": 16, "name": "Ekonomika i organizacija proizvodnje", "isElective": false },
+		{ "id": 17, "name": "Engleski jezik 3", "isElective": false }
+	],
+	"4": [
+		{ "id": 18, "name": "Vjerojatnost i statistika", "isElective": false },
+		{ "id": 19, "name": "Programiranje", "isElective": false },
+		{ "id": 20, "name": "Teorija sustava", "isElective": false },
+		{ "id": 21, "name": "Informacije i komunikacije", "isElective": false },
+		{ "id": 22, "name": "Osnove elektroenergetike", "isElective": false },
+		{ "id": 23, "name": "Elektrotehnički materijali i tehnologije", "isElective": false }
+	],
+	"5": [
+		{ "id": 64, "name": "Električne mreže", "isElective": false },
+		{ "id": 65, "name": "Električni strojevi", "isElective": false },
+		{ "id": 66, "name": "Elementi električnih postrojenja", "isElective": false },
+		{ "id": 67, "name": "Energetska elektronika", "isElective": false },
+		{ "id": 68, "name": "Regulacijska tehnika", "isElective": false }
+	],
+	"6": [
+		{ "id": 69, "name": "Elektromotorni pogoni", "isElective": false },
+		{ "id": 70, "name": "Elementi automatizacije industrijskih procesa", "isElective": false },
+		{ "id": 71, "name": "Završni rad", "isElective": false },
+		{ "id": 72, "name": "Električne instalacije i rasvjeta", "isElective": true },
+		{ "id": 73, "name": "Elektrotehnička sigurnost", "isElective": true },
+		{ "id": 74, "name": "Distribucija električne energije", "isElective": true },
+		{ "id": 75, "name": "Upravljanje sustavima energetske elektronike", "isElective": true },
+		{ "id": 76, "name": "Elektronički pretvarači za napajanje", "isElective": true },
+		{ "id": 77, "name": "Održavanje i ispitivanje električne opreme", "isElective": true },
+		{ "id": 78, "name": "Brodska elektrotehnika", "isElective": true },
+		{ "id": 79, "name": "Instrumentacija i ispitivanje radnog okoliša", "isElective": true },
+		{ "id": 80, "name": "Instrumentacija za napredne elektroenergetske mreže", "isElective": true },
+		{ "id": 81, "name": "Dijagnostičke metode u vozilima", "isElective": true },
+		{ "id": 82, "name": "Stručna praksa", "isElective": true }
+	]
+}

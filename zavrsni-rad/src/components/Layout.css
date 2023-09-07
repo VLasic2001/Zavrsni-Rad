@@ -1,0 +1,4 @@
+.layoutContainer {
+	padding: 15px;
+	height: calc(100% - 65px);
+}
