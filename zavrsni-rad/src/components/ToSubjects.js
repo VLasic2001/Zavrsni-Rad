@@ -8,27 +8,32 @@ const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
 	const [toSubjectsView, setToSubjectsView] = useState();
 	const [passedSubjects, setPassedSubjects] = useState();
 
+	// const fs = require("fs");
+
 	useEffect(() => {
 		if (!selectToValue || !fromMajor) return;
+		// if (fs.existsSync(`../data/transfers/${fromMajor}-${selectToValue.value}`))
 		import(`../data/transfers/${fromMajor}-${selectToValue.value}`).then((r) =>
 			setTransferData(r.default)
 		);
 		setPassedSubjects({});
+		// if (fs.existsSync(`../data/majors/${selectToValue.value}`))
 		import(`../data/majors/${selectToValue.value}`).then((r) => setToSubjects(r.default));
 	}, [selectToValue, fromSubjectGrades]);
 
 	useEffect(() => {
 		if (!toSubjects) return;
 		let recognizedSubjects = {};
+		let grade;
 		Object.keys(toSubjects).forEach((semester) => {
 			toSubjects[semester].forEach((subject) => {
-				if (isSubjectRecognized(subject)) {
+				if ((grade = isSubjectRecognized(subject))) {
+					subject.grade = grade;
 					if (!recognizedSubjects[semester]) {
 						recognizedSubjects[semester] = [subject];
 					} else {
 						recognizedSubjects[semester].push(subject);
 					}
-					console.log(recognizedSubjects);
 				}
 			});
 		});
@@ -53,6 +58,7 @@ const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
 										className={subject.isElective ? "electiveContainer" : "subjectContainer"}
 									>
 										<span>{subject.name}</span>
+										<span>Ocjena: {subject.grade}</span>
 									</div>
 								))}
 							</div>
@@ -79,21 +85,22 @@ const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
 			return false;
 
 		let numberOfRequiredSubjectsPassed = 0;
+		let grade = 0;
 		const requiredSubjects = transferData.transfers.find(
 			(transfer) => transfer.recognizedSubject === subject.id
 		).requiredSubjects;
 
 		requiredSubjects.forEach((rs) => {
-			if (
-				fromSubjectGrades.find((grade) => grade.id == rs) &&
-				fromSubjectGrades.find((grade) => grade.id == rs).value > 1
-			)
+			let subjectGrade = fromSubjectGrades.find((grade) => grade.id === rs);
+			if (subjectGrade && subjectGrade.value > 1) {
 				numberOfRequiredSubjectsPassed++;
+				grade += parseInt(subjectGrade.value);
+			}
 		});
 
 		if (numberOfRequiredSubjectsPassed !== requiredSubjects.length) return false;
 
-		return true;
+		return Math.round(grade / numberOfRequiredSubjectsPassed);
 	};
 
 	return (

@@ -1,0 +1,65 @@
+{
+	"1": [
+		{ "id": 143, "name": "Matematika", "isElective": false },
+		{ "id": 144, "name": "Fizika", "isElective": false },
+		{ "id": 145, "name": "Informatika", "isElective": false },
+		{ "id": 146, "name": "Osnove elektrotehnike 1", "isElective": false },
+		{ "id": 147, "name": "Elektrotehnički materijali i tehnologije", "isElective": false },
+		{ "id": 148, "name": "Engleski jezik 1", "isElective": false }
+	],
+	"2": [
+		{ "id": 149, "name": "Primijenjena matematika", "isElective": false },
+		{ "id": 150, "name": "Uvod u programiranje", "isElective": false },
+		{ "id": 151, "name": "Osnove elektrotehnike 2", "isElective": false },
+		{ "id": 152, "name": "Elektronički elementi", "isElective": false },
+		{ "id": 153, "name": "Električna mjerenja", "isElective": false },
+		{ "id": 154, "name": "Engleski jezik 2", "isElective": false }
+	],
+	"3": [
+		{ "id": 182, "name": "Elektronički sklopovi", "isElective": false },
+		{ "id": 183, "name": "Signali i sustavi", "isElective": false },
+		{ "id": 184, "name": "Automatika", "isElective": false },
+		{ "id": 185, "name": "Uvod u poduzetništvo", "isElective": false },
+		{ "id": 186, "name": "Osnove optoelektronike", "isElective": false }
+	],
+	"4": [
+		{ "id": 187, "name": "Komunikacijski sustavi", "isElective": false },
+		{ "id": 188, "name": "Digitalna tehnika", "isElective": false },
+		{ "id": 189, "name": "Elektronički CAD", "isElective": false },
+		{ "id": 190, "name": "Vođenje procesa", "isElective": true },
+		{ "id": 191, "name": "Elementi robotike", "isElective": true },
+		{ "id": 192, "name": "Računalne mreže", "isElective": true },
+		{ "id": 193, "name": "Antene", "isElective": true },
+		{ "id": 194, "name": "Multimedija", "isElective": true }
+	],
+	"5": [
+		{ "id": 195, "name": "Praktikum iz biomehanike", "isElective": true },
+		{ "id": 196, "name": "Praktikum iz digitalne obrade slike", "isElective": true },
+		{ "id": 197, "name": "Praktikum iz mehatronike", "isElective": true },
+		{ "id": 198, "name": "Praktikum iz elektromagnetskih simulacija", "isElective": true },
+		{ "id": 199, "name": "Projektiranje elektroničkih sklopova", "isElective": true },
+		{ "id": 200, "name": "Elektronička instrumentacija", "isElective": true },
+		{ "id": 201, "name": "Elektromagnetska kompatibilnost", "isElective": true },
+		{ "id": 202, "name": "Arhitektura računala", "isElective": true },
+		{ "id": 203, "name": "Modeliranje i simuliranje sustava", "isElective": true },
+		{ "id": 204, "name": "Sigurnost računala i podataka", "isElective": true },
+		{ "id": 205, "name": "Projektiranje i korištenje računalnih mreža", "isElective": true },
+		{ "id": 206, "name": "Projektiranje regulacijskih sustava", "isElective": true },
+		{ "id": 207, "name": "Radiokomunikacije", "isElective": true },
+		{ "id": 208, "name": "Analiza zračećih struktura primjenom računala", "isElective": true },
+		{ "id": 209, "name": "zloženost ljudi elektromagnetskom polju", "isElective": true }
+	],
+	"6": [
+		{ "id": 210, "name": "Trgovačko pravo", "isElective": false },
+		{ "id": 211, "name": "Stručna praksa", "isElective": false },
+		{ "id": 212, "name": "Završni rad", "isElective": false },
+		{ "id": 213, "name": "Programiranje za Internet", "isElective": true },
+		{ "id": 214, "name": "Mjerna osjetila i mjerni pretvornici", "isElective": true },
+		{ "id": 215, "name": "Mobilne komunikacijske mreže", "isElective": true },
+		{ "id": 216, "name": "Optičke komunikacije", "isElective": true },
+		{ "id": 217, "name": "Hidraulički i pneumatički uređaji", "isElective": true },
+		{ "id": 218, "name": "Mikroregulatori i ugradivi mrežni sustavi", "isElective": true },
+		{ "id": 219, "name": "Radiokomunikacije u pomorstvu", "isElective": true },
+		{ "id": 220, "name": "Visokofrekvencijska elektronika", "isElective": true }
+	]
+}

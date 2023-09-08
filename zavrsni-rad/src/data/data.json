@@ -5,7 +5,10 @@
 		{ "id": 112, "name": "SVEUČILIŠNI - ELEKTRONIKA I RAČUNALNO INŽINJERSTVO" },
 		{ "id": 113, "name": "SVEUČILIŠNI - ELEKTROTEHNIKA" },
 		{ "id": 114, "name": "SVEUČILIŠNI - KOMUNIKACIJSKA I INFORMACIJSKA TEHNOLOGIJA" },
-		{ "id": 120, "name": "SVEUČILIŠNI - RAČUNARSTVO" }
+		{ "id": 120, "name": "SVEUČILIŠNI - RAČUNARSTVO" },
+		{ "id": 510, "name": "STRUČNI - ELEKTROTEHNIKA" },
+		{ "id": 511, "name": "STRUČNI - ELEKTROENERGETIKA" },
+		{ "id": 512, "name": "STRUČNI - ELEKTRONIKA" }
 	],
-	"lastId": 0
+	"lastId": 142
 }

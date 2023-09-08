@@ -1,0 +1,51 @@
+{
+	"1": [
+		{ "id": 221, "name": "Matematika", "isElective": false },
+		{ "id": 222, "name": "Elektrotehnika", "isElective": false },
+		{ "id": 223, "name": "Uvod u organizaciju digitalnih računala", "isElective": false },
+		{ "id": 224, "name": "Programiranje 1", "isElective": false },
+		{ "id": 225, "name": "Engleski jezik 1", "isElective": false }
+	],
+	"2": [
+		{ "id": 226, "name": "Primijenjena matematika", "isElective": false },
+		{ "id": 227, "name": "Osnove elektronike", "isElective": false },
+		{ "id": 228, "name": "Digitalna tehnika", "isElective": false },
+		{ "id": 229, "name": "Programiranje 2", "isElective": false },
+		{ "id": 230, "name": "Engleski jezik 2", "isElective": false }
+	],
+	"3": [
+		{ "id": 231, "name": "Uvod u poduzetništvo", "isElective": false },
+		{ "id": 232, "name": "Arhitektura digitalnih računala", "isElective": false },
+		{ "id": 233, "name": "Baze podataka", "isElective": false },
+		{ "id": 234, "name": "Algoritmi i strukture podataka", "isElective": false },
+		{ "id": 235, "name": "Programiranje za Unix", "isElective": false },
+		{ "id": 236, "name": "Programiranje za Internet", "isElective": false }
+	],
+	"4": [
+		{ "id": 237, "name": "Računalne mreže", "isElective": false },
+		{ "id": 238, "name": "Operacijski sustavi", "isElective": false },
+		{ "id": 239, "name": "Objektno orijentirano programiranje", "isElective": false },
+		{ "id": 240, "name": "Programiranje u Javi", "isElective": false },
+		{ "id": 240, "name": "Multimedijske mreže i sustavi", "isElective": false }
+	],
+	"5": [
+		{ "id": 241, "name": "Programsko inženjerstvo", "isElective": false },
+		{ "id": 242, "name": "Uvod u distribuirane informacijske sustave", "isElective": false },
+		{ "id": 243, "name": "Arhitektura osobnih računala", "isElective": true },
+		{ "id": 244, "name": "Programiranje za Windows", "isElective": true },
+		{ "id": 245, "name": "Baze podataka 2", "isElective": true },
+		{ "id": 246, "name": "Sigurnost računala i podataka", "isElective": true },
+		{ "id": 247, "name": "Projektiranje i korištenje računalnih mreža", "isElective": true },
+		{ "id": 248, "name": "Napredne web tehnologije", "isElective": true },
+		{ "id": 249, "name": "Upravljanje poslovnim procesima", "isElective": true }
+	],
+	"6": [
+		{ "id": 250, "name": "Projektiranje informacijskih sustava", "isElective": false },
+		{ "id": 251, "name": "Stručna praksa", "isElective": false },
+		{ "id": 252, "name": "Završni rad", "isElective": false },
+		{ "id": 253, "name": "Mikrokontrolerom upravljani mobilni roboti", "isElective": true },
+		{ "id": 254, "name": "Mobilne komunikacijske mreže", "isElective": true },
+		{ "id": 255, "name": "Osnove programiranja 3D računalnih igara", "isElective": true },
+		{ "id": 256, "name": "Programiranje za android", "isElective": true }
+	]
+}

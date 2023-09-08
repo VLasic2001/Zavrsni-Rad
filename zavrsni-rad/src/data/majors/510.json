@@ -1,0 +1,18 @@
+{
+	"1": [
+		{ "id": 143, "name": "Matematika", "isElective": false },
+		{ "id": 144, "name": "Fizika", "isElective": false },
+		{ "id": 145, "name": "Informatika", "isElective": false },
+		{ "id": 146, "name": "Osnove elektrotehnike 1", "isElective": false },
+		{ "id": 147, "name": "Elektrotehnički materijali i tehnologije", "isElective": false },
+		{ "id": 148, "name": "Engleski jezik 1", "isElective": false }
+	],
+	"2": [
+		{ "id": 149, "name": "Primijenjena matematika", "isElective": false },
+		{ "id": 150, "name": "Uvod u programiranje", "isElective": false },
+		{ "id": 151, "name": "Osnove elektrotehnike 2", "isElective": false },
+		{ "id": 152, "name": "Elektronički elementi", "isElective": false },
+		{ "id": 153, "name": "Električna mjerenja", "isElective": false },
+		{ "id": 154, "name": "Engleski jezik 2", "isElective": false }
+	]
+}
