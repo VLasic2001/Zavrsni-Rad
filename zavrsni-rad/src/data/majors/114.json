@@ -1,58 +1,58 @@
 {
 	"1": [
-		{ "id": 1, "name": "Matematika 1", "isElective": false },
-		{ "id": 2, "name": "Osnove elektrotehnike 1", "isElective": false },
-		{ "id": 3, "name": "Računala i programiranje", "isElective": false },
-		{ "id": 4, "name": "Inženjerska grafika i prezentacija", "isElective": false },
-		{ "id": 5, "name": "Komunikacijske vještine", "isElective": false },
-		{ "id": 6, "name": "Engleski jezik 1", "isElective": false }
+		{ "id": 1, "name": "Matematika 1", "isElective": false, "ects": 7 },
+		{ "id": 2, "name": "Osnove elektrotehnike 1", "isElective": false, "ects": 7 },
+		{ "id": 3, "name": "Računala i programiranje", "isElective": false, "ects": 6 },
+		{ "id": 4, "name": "Inženjerska grafika i prezentacija", "isElective": false, "ects": 4 },
+		{ "id": 5, "name": "Komunikacijske vještine", "isElective": false, "ects": 3 },
+		{ "id": 6, "name": "Engleski jezik 1", "isElective": false, "ects": 3 }
 	],
 	"2": [
-		{ "id": 7, "name": "Matematika 2", "isElective": false },
-		{ "id": 8, "name": "Fizika 1", "isElective": false },
-		{ "id": 9, "name": "Osnove elektrotehnike 2", "isElective": false },
-		{ "id": 10, "name": "Digitalna elektronika", "isElective": false },
-		{ "id": 11, "name": "Engleski jezik 2", "isElective": false }
+		{ "id": 7, "name": "Matematika 2", "isElective": false, "ects": 7 },
+		{ "id": 8, "name": "Fizika 1", "isElective": false, "ects": 7 },
+		{ "id": 9, "name": "Osnove elektrotehnike 2", "isElective": false, "ects": 6 },
+		{ "id": 10, "name": "Digitalna elektronika", "isElective": false, "ects": 6 },
+		{ "id": 11, "name": "Engleski jezik 2", "isElective": false, "ects": 4 }
 	],
 	"3": [
-		{ "id": 12, "name": "Matematika 3", "isElective": false },
-		{ "id": 13, "name": "Fizika 2", "isElective": false },
-		{ "id": 14, "name": "Elektronički elementi i sklopovi", "isElective": false },
-		{ "id": 15, "name": "Električna mjerenja", "isElective": false },
-		{ "id": 16, "name": "Ekonomika i organizacija proizvodnje", "isElective": false },
-		{ "id": 17, "name": "Engleski jezik 3", "isElective": false }
+		{ "id": 12, "name": "Matematika 3", "isElective": false, "ects": 5 },
+		{ "id": 13, "name": "Fizika 2", "isElective": false, "ects": 7 },
+		{ "id": 14, "name": "Elektronički elementi i sklopovi", "isElective": false, "ects": 6 },
+		{ "id": 15, "name": "Električna mjerenja", "isElective": false, "ects": 6 },
+		{ "id": 16, "name": "Ekonomika i organizacija proizvodnje", "isElective": false, "ects": 3 },
+		{ "id": 17, "name": "Engleski jezik 3", "isElective": false, "ects": 3 }
 	],
 	"4": [
-		{ "id": 18, "name": "Vjerojatnost i statistika", "issElective": false },
-		{ "id": 19, "name": "Programiranje", "isElective": false },
-		{ "id": 20, "name": "Teorija sustava", "isElective": false },
-		{ "id": 21, "name": "Informacije i komunikacije", "isElective": false },
-		{ "id": 22, "name": "Osnove elektroenergetike", "isElective": false },
-		{ "id": 23, "name": "Elektrotehnički materijali i tehnologije", "isElective": false }
+		{ "id": 18, "name": "Vjerojatnost i statistika", "isElective": false, "ects": 5 },
+		{ "id": 19, "name": "Programiranje", "isElective": false, "ects": 6 },
+		{ "id": 20, "name": "Teorija sustava", "isElective": false, "ects": 5 },
+		{ "id": 21, "name": "Informacije i komunikacije", "isElective": false, "ects": 5 },
+		{ "id": 22, "name": "Osnove elektroenergetike", "isElective": false, "ects": 5 },
+		{ "id": 23, "name": "Elektrotehnički materijali i tehnologije", "isElective": false, "ects": 4 }
 	],
 	"5": [
-		{ "id": 83, "name": "Teorija informacija", "isElective": false },
-		{ "id": 84, "name": "Komunikacijski sustavi i protokoli", "isElective": false },
-		{ "id": 85, "name": "Objektno orijentirano programiranje", "isElective": false },
-		{ "id": 86, "name": "Arhitektura računala", "isElective": false },
-		{ "id": 87, "name": "Analiza mreža", "isElective": false },
-		{ "id": 88, "name": "Sigurnost računala i sustava", "isElective": true },
-		{ "id": 89, "name": "Programiranje za Internet", "isElective": true },
-		{ "id": 90, "name": "Poluvodički elektronički elementi", "isElective": true },
-		{ "id": 91, "name": "Numeričke metode u elektronici", "isElective": true },
-		{ "id": 92, "name": "Elektronički sklopovi", "isElective": true },
-		{ "id": 93, "name": "Simulacijsko modeliranje", "isElective": true },
-		{ "id": 94, "name": "Automatska regulacija 1", "isElective": true }
+		{ "id": 83, "name": "Teorija informacija", "isElective": false, "ects": 5 },
+		{ "id": 84, "name": "Komunikacijski sustavi i protokoli", "isElective": false, "ects": 5 },
+		{ "id": 85, "name": "Objektno orijentirano programiranje", "isElective": false, "ects": 5 },
+		{ "id": 86, "name": "Arhitektura računala", "isElective": false, "ects": 5 },
+		{ "id": 87, "name": "Analiza mreža", "isElective": false, "ects": 5 },
+		{ "id": 88, "name": "Sigurnost računala i sustava", "isElective": true, "ects": 5 },
+		{ "id": 89, "name": "Programiranje za Internet", "isElective": true, "ects": 5 },
+		{ "id": 90, "name": "Poluvodički elektronički elementi", "isElective": true, "ects": 5 },
+		{ "id": 91, "name": "Numeričke metode u elektronici", "isElective": true, "ects": 5 },
+		{ "id": 92, "name": "Elektronički sklopovi", "isElective": true, "ects": 5 },
+		{ "id": 93, "name": "Simulacijsko modeliranje", "isElective": true, "ects": 5 },
+		{ "id": 94, "name": "Automatska regulacija 1", "isElective": true, "ects": 5 }
 	],
 	"6": [
-		{ "id": 95, "name": "Elektromagnetska polja", "isElective": false },
-		{ "id": 96, "name": "Digitalna obradba signala", "isElective": false },
-		{ "id": 97, "name": "Impulsni i digitalni sklopovi", "isElective": false },
-		{ "id": 98, "name": "Završni rad", "isElective": false },
-		{ "id": 99, "name": "Bežične senzorske mreže", "isElective": true },
-		{ "id": 100, "name": "Baze podataka", "isElective": true },
-		{ "id": 101, "name": "Uvod u bežične komunikacije", "isElective": true },
-		{ "id": 102, "name": "Analiza mreža i linija primjenom računala", "isElective": true },
-		{ "id": 103, "name": "Stručna praksa", "isElective": true }
+		{ "id": 95, "name": "Elektromagnetska polja", "isElective": false, "ects": 5 },
+		{ "id": 96, "name": "Digitalna obradba signala", "isElective": false, "ects": 5 },
+		{ "id": 97, "name": "Impulsni i digitalni sklopovi", "isElective": false, "ects": 4 },
+		{ "id": 98, "name": "Završni rad", "isElective": false, "ects": 12 },
+		{ "id": 99, "name": "Bežične senzorske mreže", "isElective": true, "ects": 5 },
+		{ "id": 100, "name": "Baze podataka", "isElective": true, "ects": 5 },
+		{ "id": 101, "name": "Uvod u bežične komunikacije", "isElective": true, "ects": 5 },
+		{ "id": 102, "name": "Analiza mreža i linija primjenom računala", "isElective": true, "ects": 5 },
+		{ "id": 103, "name": "Stručna praksa", "isElective": true, "ects": 5 }
 	]
 }

@@ -8,7 +8,8 @@
 		{ "id": 120, "name": "SVEUČILIŠNI - RAČUNARSTVO" },
 		{ "id": 510, "name": "STRUČNI - ELEKTROTEHNIKA" },
 		{ "id": 511, "name": "STRUČNI - ELEKTROENERGETIKA" },
-		{ "id": 512, "name": "STRUČNI - ELEKTRONIKA" }
+		{ "id": 512, "name": "STRUČNI - ELEKTRONIKA" },
+		{ "id": 550, "name": "STRUČNI - RAČUNARSTVO" }
 	],
 	"lastId": 142
 }

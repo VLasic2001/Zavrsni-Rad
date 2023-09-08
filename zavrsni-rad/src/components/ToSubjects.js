@@ -7,18 +7,18 @@ const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
 	const [transferData, setTransferData] = useState();
 	const [toSubjectsView, setToSubjectsView] = useState();
 	const [passedSubjects, setPassedSubjects] = useState();
-
-	// const fs = require("fs");
+	const [transferNotFound, setTransferNotFound] = useState(false);
 
 	useEffect(() => {
 		if (!selectToValue || !fromMajor) return;
-		// if (fs.existsSync(`../data/transfers/${fromMajor}-${selectToValue.value}`))
-		import(`../data/transfers/${fromMajor}-${selectToValue.value}`).then((r) =>
-			setTransferData(r.default)
-		);
+		setTransferNotFound(false);
+		import(`../data/transfers/${fromMajor}-${selectToValue.value}`)
+			.catch(() => ({ default: setTransferNotFound(true) }))
+			.then((r) => setTransferData(r.default));
 		setPassedSubjects({});
-		// if (fs.existsSync(`../data/majors/${selectToValue.value}`))
-		import(`../data/majors/${selectToValue.value}`).then((r) => setToSubjects(r.default));
+		import(`../data/majors/${selectToValue.value}`)
+			.catch(() => ({}))
+			.then((r) => setToSubjects(r.default));
 	}, [selectToValue, fromSubjectGrades]);
 
 	useEffect(() => {
@@ -58,7 +58,9 @@ const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
 										className={subject.isElective ? "electiveContainer" : "subjectContainer"}
 									>
 										<span>{subject.name}</span>
-										<span>Ocjena: {subject.grade}</span>
+										<span>
+											Ocjena: {subject.grade}, ECTS: {subject.ects}
+										</span>
 									</div>
 								))}
 							</div>
@@ -69,7 +71,11 @@ const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
 					</div>
 				) : (
 					<div className="majorContainer">
-						<span className="tipContainer">Nema priznatih kolegija</span>
+						{transferNotFound ? (
+							<span className="tipContainer">Nisu pronađene informacije o prelasku između ova dva studija</span>
+						) : (
+							<span className="tipContainer">Nema priznatih kolegija</span>
+						)}
 					</div>
 				)}
 			</>
@@ -81,8 +87,7 @@ const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
 
 	const isSubjectRecognized = (subject) => {
 		if (!transferData) return false;
-		if (!transferData.transfers.find((transfer) => transfer.recognizedSubject === subject.id))
-			return false;
+		if (!transferData.transfers.find((transfer) => transfer.recognizedSubject === subject.id)) return false;
 
 		let numberOfRequiredSubjectsPassed = 0;
 		let grade = 0;

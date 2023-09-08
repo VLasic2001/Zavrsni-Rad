@@ -1,57 +1,53 @@
 {
 	"1": [
-		{ "id": 143, "name": "Matematika", "isElective": false },
-		{ "id": 144, "name": "Fizika", "isElective": false },
-		{ "id": 145, "name": "Informatika", "isElective": false },
-		{ "id": 146, "name": "Osnove elektrotehnike 1", "isElective": false },
-		{ "id": 147, "name": "Elektrotehnički materijali i tehnologije", "isElective": false },
-		{ "id": 148, "name": "Engleski jezik 1", "isElective": false }
+		{ "id": 143, "name": "Matematika", "isElective": false, "ects": 7 },
+		{ "id": 144, "name": "Fizika", "isElective": false, "ects": 6 },
+		{ "id": 145, "name": "Informatika", "isElective": false, "ects": 5 },
+		{ "id": 146, "name": "Osnove elektrotehnike 1", "isElective": false, "ects": 7 },
+		{ "id": 147, "name": "Elektrotehnički materijali i tehnologije", "isElective": false, "ects": 4 },
+		{ "id": 148, "name": "Engleski jezik 1", "isElective": false, "ects": 2 }
 	],
 	"2": [
-		{ "id": 149, "name": "Primijenjena matematika", "isElective": false },
-		{ "id": 150, "name": "Uvod u programiranje", "isElective": false },
-		{ "id": 151, "name": "Osnove elektrotehnike 2", "isElective": false },
-		{ "id": 152, "name": "Elektronički elementi", "isElective": false },
-		{ "id": 153, "name": "Električna mjerenja", "isElective": false },
-		{ "id": 154, "name": "Engleski jezik 2", "isElective": false }
+		{ "id": 149, "name": "Primijenjena matematika", "isElective": false, "ects": 5 },
+		{ "id": 150, "name": "Uvod u programiranje", "isElective": false, "ects": 5 },
+		{ "id": 151, "name": "Osnove elektrotehnike 2", "isElective": false, "ects": 6 },
+		{ "id": 152, "name": "Elektronički elementi", "isElective": false, "ects": 6 },
+		{ "id": 153, "name": "Električna mjerenja", "isElective": false, "ects": 5 },
+		{ "id": 154, "name": "Engleski jezik 2", "isElective": false, "ects": 3 }
 	],
 	"3": [
-		{ "id": 155, "name": "Električni strojevi i transformatori", "isElective": false },
-		{ "id": 156, "name": "Električne mreže", "isElective": false },
-		{ "id": 157, "name": "Električna postrojenja", "isElective": false },
-		{ "id": 158, "name": "Energetska elektronika", "isElective": false },
-		{ "id": 159, "name": "Regulacijska tehnika", "isElective": false }
+		{ "id": 155, "name": "Električni strojevi i transformatori", "isElective": false, "ects": 8 },
+		{ "id": 156, "name": "Električne mreže", "isElective": false, "ects": 5 },
+		{ "id": 157, "name": "Električna postrojenja", "isElective": false, "ects": 6 },
+		{ "id": 158, "name": "Energetska elektronika", "isElective": false, "ects": 6 },
+		{ "id": 159, "name": "Regulacijska tehnika", "isElective": false, "ects": 5 }
 	],
 	"4": [
-		{ "id": 160, "name": "Elektromotorni pogoni", "isElective": false },
-		{ "id": 161, "name": "Električne instalacije", "isElective": false },
-		{ "id": 162, "name": "Mjerenja u elektroenergetici", "isElective": false },
-		{ "id": 163, "name": "Distribucija električne energije", "isElective": false },
-		{ "id": 164, "name": "Primjena procesnih računala", "isElective": false },
-		{ "id": 165, "name": "Upravljanje i zaštita električnih postrojenja", "isElective": false }
+		{ "id": 160, "name": "Elektromotorni pogoni", "isElective": false, "ects": 5 },
+		{ "id": 161, "name": "Električne instalacije", "isElective": false, "ects": 5 },
+		{ "id": 162, "name": "Mjerenja u elektroenergetici", "isElective": false, "ects": 5 },
+		{ "id": 163, "name": "Distribucija električne energije", "isElective": false, "ects": 5 },
+		{ "id": 164, "name": "Primjena procesnih računala", "isElective": false, "ects": 5 },
+		{ "id": 165, "name": "Upravljanje i zaštita električnih postrojenja", "isElective": false, "ects": 5 }
 	],
 	"5": [
-		{ "id": 166, "name": "Elektrotehnička sigurnost", "isElective": false },
-		{ "id": 167, "name": "Mjerenje procesnih veličina", "isElective": false },
-		{ "id": 168, "name": "Održavanje i ispitivanje električne opreme", "isElective": false },
-		{ "id": 169, "name": "Elektronički pretvarači za napajanje", "isElective": false },
-		{ "id": 170, "name": "Projektiranje niskonaponskih postrojenja", "isElective": true },
-		{ "id": 171, "name": "Obnovljivi izvori energije", "isElective": true },
-		{ "id": 172, "name": "Brodska elektrotehnika", "isElective": true },
-		{ "id": 173, "name": "Zaštita u elektroenergetskom sustavu", "isElective": true }
+		{ "id": 166, "name": "Elektrotehnička sigurnost", "isElective": false, "ects": 5 },
+		{ "id": 167, "name": "Mjerenje procesnih veličina", "isElective": false, "ects": 5 },
+		{ "id": 168, "name": "Održavanje i ispitivanje električne opreme", "isElective": false, "ects": 5 },
+		{ "id": 169, "name": "Elektronički pretvarači za napajanje", "isElective": false, "ects": 5 },
+		{ "id": 170, "name": "Projektiranje niskonaponskih postrojenja", "isElective": true, "ects": 5 },
+		{ "id": 171, "name": "Obnovljivi izvori energije", "isElective": true, "ects": 5 },
+		{ "id": 172, "name": "Brodska elektrotehnika", "isElective": true, "ects": 5 },
+		{ "id": 173, "name": "Zaštita u elektroenergetskom sustavu", "isElective": true, "ects": 5 }
 	],
 	"6": [
-		{ "id": 174, "name": "Stručna praksa", "isElective": false },
-		{ "id": 175, "name": "Završni rad", "isElective": false },
-		{ "id": 176, "name": "Upravljanje elektromotornim pogonima", "isElective": true },
-		{ "id": 177, "name": "Tehnika visokog napona", "isElective": true },
-		{ "id": 178, "name": "Elektroenergetski sustav i okoliš", "isElective": true },
-		{ "id": 179, "name": "Energetski izvori", "isElective": true },
-		{
-			"id": 180,
-			"name": "Instrumentacija za napredne elektroenergetske mreže",
-			"isElective": true
-		},
-		{ "id": 181, "name": "Mikroprocesorski sustavi", "isElective": true }
+		{ "id": 174, "name": "Stručna praksa", "isElective": false, "ects": 10 },
+		{ "id": 175, "name": "Završni rad", "isElective": false, "ects": 10 },
+		{ "id": 176, "name": "Upravljanje elektromotornim pogonima", "isElective": true, "ects": 5 },
+		{ "id": 177, "name": "Tehnika visokog napona", "isElective": true, "ects": 5 },
+		{ "id": 178, "name": "Elektroenergetski sustav i okoliš", "isElective": true, "ects": 5 },
+		{ "id": 179, "name": "Energetski izvori", "isElective": true, "ects": 5 },
+		{ "id": 180, "name": "Instrumentacija za napredne elektroenergetske mreže", "isElective": true, "ects": 5 },
+		{ "id": 181, "name": "Mikroprocesorski sustavi", "isElective": true, "ects": 5 }
 	]
 }

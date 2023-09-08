@@ -1,0 +1,27 @@
+{
+	"transfers": [
+		{ "requiredSubjects": [1], "recognizedSubject": 143 },
+		{ "requiredSubjects": [2], "recognizedSubject": 146 },
+		{ "requiredSubjects": [8], "recognizedSubject": 144 },
+		{ "requiredSubjects": [3], "recognizedSubject": 145 },
+		{ "requiredSubjects": [23], "recognizedSubject": 147 },
+		{ "requiredSubjects": [6], "recognizedSubject": 148 },
+		{ "requiredSubjects": [14], "recognizedSubject": 152 },
+		{ "requiredSubjects": [9], "recognizedSubject": 151 },
+		{ "requiredSubjects": [15], "recognizedSubject": 153 },
+		{ "requiredSubjects": [7, 18], "recognizedSubject": 149 },
+		{ "requiredSubjects": [19], "recognizedSubject": 150 },
+		{ "requiredSubjects": [11], "recognizedSubject": 154 },
+		{ "requiredSubjects": [92, 97], "recognizedSubject": 182 },
+		{ "requiredSubjects": [20], "recognizedSubject": 184 },
+		{ "requiredSubjects": [21], "recognizedSubject": 183 },
+		{ "requiredSubjects": [16], "recognizedSubject": 185 },
+		{ "requiredSubjects": [84], "recognizedSubject": 187 },
+		{ "requiredSubjects": [10], "recognizedSubject": 188 },
+		{ "requiredSubjects": [4], "recognizedSubject": 189 },
+		{ "requiredSubjects": [86], "recognizedSubject": 202 },
+		{ "requiredSubjects": [93], "recognizedSubject": 203 },
+		{ "requiredSubjects": [88], "recognizedSubject": 204 },
+		{ "requiredSubjects": [89], "recognizedSubject": 213 }
+	]
+}

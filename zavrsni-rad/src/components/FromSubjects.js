@@ -45,8 +45,8 @@ const FromSubjects = ({
 										min="0"
 										max="5"
 										value={
-											fromSubjectGrades.find((e) => e.id == subject.id)
-												? fromSubjectGrades.find((e) => e.id == subject.id).value
+											fromSubjectGrades.find((e) => e.id === subject.id)
+												? fromSubjectGrades.find((e) => e.id === subject.id).value
 												: 0
 										}
 										className="gradeInput"
