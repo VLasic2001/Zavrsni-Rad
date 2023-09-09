@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Select from "react-select";
 
-const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
+const ToSubjects = ({ options, fromSubjectGrades, fromMajor, handlePassedSubjects, handleToMajor }) => {
 	const [selectToValue, setSelectToValue] = useState();
 	const [toSubjects, setToSubjects] = useState();
 	const [transferData, setTransferData] = useState();
@@ -12,6 +12,7 @@ const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
 	useEffect(() => {
 		if (!selectToValue || !fromMajor) return;
 		setTransferNotFound(false);
+		handleToMajor(selectToValue.value);
 		import(`../data/transfers/${fromMajor}-${selectToValue.value}`)
 			.catch(() => ({ default: setTransferNotFound(true) }))
 			.then((r) => setTransferData(r.default));
@@ -81,9 +82,8 @@ const ToSubjects = ({ options, fromSubjectGrades, fromMajor }) => {
 			</>
 		);
 		setToSubjectsView(view);
+		handlePassedSubjects(passedSubjects);
 	}, [passedSubjects]);
-
-	// console.log(fromSubjectGrades, transferData, toSubjects);
 
 	const isSubjectRecognized = (subject) => {
 		if (!transferData) return false;

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import NavMenu from "./NavMenu";
 import "./Layout.css";
 
 export class Layout extends Component {
@@ -8,7 +7,6 @@ export class Layout extends Component {
 	render() {
 		return (
 			<>
-				<NavMenu />
 				<div className="layoutContainer">{this.props.children}</div>
 			</>
 		);

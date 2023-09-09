@@ -1,5 +1,5 @@
 import Home from "./components/Home";
-import Admin from "./components/Admin";
+import Export from "./components/Export";
 
 const AppRoutes = [
 	{
@@ -7,8 +7,8 @@ const AppRoutes = [
 		element: <Home />,
 	},
 	{
-		path: "/admin",
-		element: <Admin />,
+		path: "/export",
+		element: <Export />,
 	},
 ];
 

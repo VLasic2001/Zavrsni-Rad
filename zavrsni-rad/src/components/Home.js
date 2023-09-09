@@ -2,12 +2,15 @@ import React, { useEffect, useState } from "react";
 import data from "../data/data.json";
 import FromSubjects from "./FromSubjects";
 import ToSubjects from "./ToSubjects";
+import NavMenu from "./NavMenu";
 import "./Home.css";
 
 const Home = () => {
 	const [selectOptions, setSelectOptions] = useState([]);
 	const [fromSubjectGrades, setFromSubjectGrades] = useState([]);
 	const [fromMajor, setFromMajor] = useState();
+	const [passedSubjects, setPassedSubjects] = useState();
+	const [toMajor, setToMajor] = useState();
 
 	useEffect(() => {
 		const options = [];
@@ -20,6 +23,14 @@ const Home = () => {
 		);
 		setSelectOptions(options);
 	}, []);
+
+	const handlePassedSubjects = (subjects) => {
+		setPassedSubjects(subjects);
+	};
+
+	const handleToMajor = (toMajor) => {
+		setToMajor(toMajor);
+	};
 
 	const handleGradeChange = (name, value, id, semester) => {
 		if (value > 5 || value < 0) return;
@@ -36,21 +47,30 @@ const Home = () => {
 	};
 
 	return (
-		<div className="homeContainer">
-			<FromSubjects
-				options={selectOptions}
-				handleGradeChange={handleGradeChange}
-				fromSubjectGrades={fromSubjectGrades}
-				resetGrades={resetGrades}
-				handleFromMajor={handleFromMajor}
-			/>
-			<span className="arrowIcon">&#8680;</span>
-			<ToSubjects
-				options={selectOptions}
-				fromSubjectGrades={fromSubjectGrades}
+		<>
+			<NavMenu
+				passedSubjects={passedSubjects}
 				fromMajor={fromMajor}
+				toMajor={toMajor}
 			/>
-		</div>
+			<div className="homeContainer">
+				<FromSubjects
+					options={selectOptions}
+					handleGradeChange={handleGradeChange}
+					fromSubjectGrades={fromSubjectGrades}
+					resetGrades={resetGrades}
+					handleFromMajor={handleFromMajor}
+				/>
+				<span className="arrowIcon">&#8680;</span>
+				<ToSubjects
+					options={selectOptions}
+					fromSubjectGrades={fromSubjectGrades}
+					fromMajor={fromMajor}
+					handlePassedSubjects={handlePassedSubjects}
+					handleToMajor={handleToMajor}
+				/>
+			</div>
+		</>
 	);
 };
 

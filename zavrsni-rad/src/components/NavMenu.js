@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./NavMenu.css";
 
-const NavMenu = () => {
+const NavMenu = (passedSubjects) => {
 	return (
 		<nav>
 			<Link
@@ -14,9 +14,10 @@ const NavMenu = () => {
 			<div className="linkContainer">
 				<Link
 					className="link"
-					to={"/admin"}
+					to={"/export"}
+					state={{ data: { passedSubjects: passedSubjects } }}
 				>
-					Admin
+					Export
 				</Link>
 			</div>
 		</nav>
