@@ -315,7 +315,7 @@ const Export = () => {
 				className="exportButton"
 				onClick={print}
 			>
-				Export
+				Izvoz
 			</button>
 		</>
 	);

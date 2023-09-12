@@ -2,7 +2,7 @@
 	"majors": [
 		{ "id": 110, "name": "SVEUČILIŠNI - ELEKTROTEHNIKA I INFORMACIJSKA TEHNOLOGIJA" },
 		{ "id": 111, "name": "SVEUČILIŠNI - AUTOMATIKA I SUSTAVI" },
-		{ "id": 112, "name": "SVEUČILIŠNI - ELEKTRONIKA I RAČUNALNO INŽINJERSTVO" },
+		{ "id": 112, "name": "SVEUČILIŠNI - ELEKTRONIKA I RAČUNALNO INŽENJERSTVO" },
 		{ "id": 113, "name": "SVEUČILIŠNI - ELEKTROTEHNIKA" },
 		{ "id": 114, "name": "SVEUČILIŠNI - KOMUNIKACIJSKA I INFORMACIJSKA TEHNOLOGIJA" },
 		{ "id": 120, "name": "SVEUČILIŠNI - RAČUNARSTVO" },
@@ -11,5 +11,5 @@
 		{ "id": 512, "name": "STRUČNI - ELEKTRONIKA" },
 		{ "id": 550, "name": "STRUČNI - RAČUNARSTVO" }
 	],
-	"lastId": 142
+	"lastId": 256
 }

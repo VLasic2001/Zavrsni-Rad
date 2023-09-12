@@ -17,7 +17,7 @@ const NavMenu = (passedSubjects) => {
 					to={"/export"}
 					state={{ data: { passedSubjects: passedSubjects } }}
 				>
-					Export
+					Izvoz
 				</Link>
 			</div>
 		</nav>
